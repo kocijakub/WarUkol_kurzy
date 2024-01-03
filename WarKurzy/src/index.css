@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.nav{
+    margin-bottom: 50px;
+    padding: 40px;
+    border-bottom: #bfbfbf 1px solid;
+}
+.navList{
+    padding: 0;
+    list-style: none;
+    margin: 0 5vw;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navList >:first-child{
+    width: fit-content;
+}
+.navList li{
+    width: fit-content;
+    font-size: 30px;
+    color: #787878;
+}
+.navList li:nth-child(2){
+    color: black;
+    font-weight: bold;
+}
+.cards{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    gap: 30px;
+}
+.card{
+    padding: 30px 20px;
+    box-shadow: #8a8a8a 0 0 2px;
+    border-radius: 10px;
+    width: 400px;
+}
+.cardTop{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardTop>p{
+    margin: 0;
+}
+.cardBottom{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+.cardBottom>p{
+    margin: 0;
+}
+.cardBottom img{
+    width: 20px;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+#new{
+    background-color: #ececec;
+    border-radius: 30px;
+    padding: 3px 5px;
+    font-weight: bold;
+}
+.location, .date{
+    color: #555555;
+    margin: 0;
+}
+.location{
+    margin: 5px 0;
+}
+.card button{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border: #cccccc 1px solid;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px 10px;
+}
+
+
